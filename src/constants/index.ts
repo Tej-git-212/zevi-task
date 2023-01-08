@@ -117,7 +117,7 @@ export const filterItemsData = [
 
 export const filterPriceRangeData = [
   { id: 1, checked: false, label: 500, desc: 'Under 500' },
-  { id: 2, checked: false, label: 1000, desc: '1000 T0 3000' },
+  { id: 2, checked: false, label: 1000, desc: '1000 To 3000' },
 ]
 
 export const filterRatingsData = [

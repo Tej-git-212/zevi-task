@@ -32,7 +32,7 @@ const LandingPage = () => {
       <div>
         <div
           onClick={() => setClick(!click)}
-          className="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-.5/2"
+          className="absolute top-1/4 left-1/4"
         >
           <SearchBar
             styles="border-none"

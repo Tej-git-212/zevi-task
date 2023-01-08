@@ -1,7 +1,7 @@
 import SearchIcon from '@material-ui/icons/Search';
 
 const SearchBar = ({ value, changeInput, styles, handleInputChange }: any) => (
-  <div className={`border-[1px] ${styles}  rounded-lg px-5 py-4 flex items-center bg-white`}>
+  <div className={`border-[1px] ${styles} rounded-xl px-4 py-4 flex items-center bg-white`}>
     <input
       type='text'
       placeholder='Search'

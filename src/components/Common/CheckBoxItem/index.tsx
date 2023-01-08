@@ -23,7 +23,7 @@ const useStyles = makeStyles({
 });
 
 
-const CheckboxProton = ({ changeChecked, items }: any) => {
+const CheckboxItem = ({ changeChecked, items }: any) => {
   const classes = useStyles();
   const { checked, id, desc } = items;
   return (
@@ -51,4 +51,4 @@ const CheckboxProton = ({ changeChecked, items }: any) => {
   );
 };
 
-export default CheckboxProton;
+export default CheckboxItem;
